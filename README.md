@@ -2,58 +2,64 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
-## Development server
+# Tasks with Angular, NG-ZORRO and Tailwind CSS
 
-To start a local development server, run:
+This project is a task list application created with **Angular**, **NG-ZORRO** and **Tailwind CSS**. It allows adding, editing, deleting and marking tasks as completed. The data is stored in the `localStorage` of the browser so that tasks persist between sessions.
 
-```bash
-ng serve
-```
+## Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Add tasks**: You can add new tasks to the list.
+- Edit tasks**: You can edit existing tasks.
+- Delete tasks**: You can delete tasks you no longer need.
+- Mark tasks as completed**: You can mark tasks as completed, which will visually mark them with a cut line.
+- **Browser persistence**: Tasks are saved in the browser's `localStorage`, so they are maintained even after closing the browser or reloading the page.
 
-## Code scaffolding
+## Technologies used
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Angular**: Framework to build the application.
+- **NG-ZORRO**: Angular UI component library based on Ant Design.
+- **Tailwind CSS**: Utility design framework for quick style customization.
 
-```bash
-ng generate component component-name
-```
+## Requirements.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Before you start, make sure you have installed:
 
-```bash
-ng generate --help
-```
+- [Node.js](https://nodejs.org/) (v12 or higher).
+- Angular CLI](https://angular.io/cli) (if you do not have it, you can install it globally with `npm install -g @angular/cli`)
 
-## Building
+## Steps to run the project
 
-To build the project run:
+1. **Clone the repository**:
 
-```bash
-ng build
-```
+   ```bash
+   https://github.com/Karen1501/todolistAngular
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+   ```
 
-## Running unit tests
+2. **Install the dependencies**:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+   ## Navigate to the project folder
 
-```bash
-ng test
-```
+   cd your-repository
+   npm install
 
-## Running end-to-end tests
+3. **Run the application**:
 
-For end-to-end (e2e) testing, run:
+   ## Once the dependencies are installed, you can run the project with:
 
-```bash
-ng e2e
-```
+   ng serve
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+**Customization**.
 
-## Additional Resources
+    You can customize the layout and styles of the application by modifying the Tailwind CSS files and Angular components.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+    If you want to add more NG-ZORRO icons or functionalities, you can check it in the official NG-ZORRO documentation.
+
+**Contributions**
+
+Contributions are welcome! If you find any bugs or have suggestions, feel free to open an issue or send a pull request.
+
+**License**
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
